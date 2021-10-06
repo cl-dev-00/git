@@ -2,7 +2,7 @@
 
 `git init` Oye Git, voy a usar estos documentos contigo ¿vale?  
 
-`git add` <file> Pasa los docs a staging area  
+`git add <file>` Pasa el archivo a staging area  
 
 `git add .` Pasa todos los archivos  
 
@@ -12,7 +12,7 @@
 
 `git status` Ver en que status (wd, sa, r) están los docs  
 
-`git push` Subir los docs a un server (Github)  
+`git push` Subir los docs a un server 
 
 `git pull` Traer los docs de un server, traer los cambios de tus compañeros  
 
@@ -22,29 +22,27 @@
 
 `git diff <file>` Para ver las diferencias hechas en los archivos  
 
-`git branch` Ver las ramas que hay ("master" es la rama default)  
+`git branch` Ver las ramas que hay (<master< es la rama default)  
 
-`git branch "nombre"` Crear una nueva rama  
+`git branch <nombre>` Crear una nueva rama  
 
-`git checkout "nombre"` Ir a una rama en especifico  
+`git checkout <nombre>` Ir a una rama en especifico  
 
 `git config -- global user.email "email"` Para configurar email del usuario  
 
 `git config -- global user.name "nombre"` Para configurar nombre del usuario 
 
-`git reset “archivo"` para quitar un archivo del stating area 
+`git reset <archivo>` para quitar un archivo del stating area 
 
-`git chekout –b “nombre de la rama”` nos permite crear una nueva rama y cambiar de rama a la misma vez con un solo comando  
+`git chekout –b <nombre de la rama>` nos permite crear una nueva rama y cambiar de rama a la misma vez con un solo comando  
 
-`git branch –m “nombreActualDeLaRama NombreNuevaDeLaRama”` para cambiar el nombre de la rama 
+`git branch –m <nombreActualDeLaRama> <NombreNuevaDeLaRama>` para cambiar el nombre de la rama 
 
-`git branch –d  “NombreDeLaRamaQueQuieroEliminar”` eliminar rama  
+`git branch –d  <NombreDeLaRamaQueQuieroEliminar>` eliminar rama  
 
-`git branch –m “nombreActualDeLaRama NombreNuevaDeLaRama”` para cambiar el nombre de la rama 
+`git merge <nombre de la rama>` para unir la rama actual con otra
 
-`git merge “nombre de la rama"` para unir ramas 
-
-`git reset --hard "id del commit"` regresa a un commit anterior
+`git reset --hard <id del commit>` regresa a un commit anterior
 
 `git reset --hard` regresa al ultimo commit anterior
 
