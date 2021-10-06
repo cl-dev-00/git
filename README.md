@@ -28,9 +28,9 @@
 
 `git checkout <nombre>` Ir a una rama en especifico  
 
-`git config -- global user.email "email"` Para configurar email del usuario  
+`git config --global user.email "email"` Para configurar email del usuario  
 
-`git config -- global user.name "nombre"` Para configurar nombre del usuario 
+`git config --global user.name "nombre"` Para configurar nombre del usuario 
 
 `git reset <archivo>` para quitar un archivo del stating area 
 
